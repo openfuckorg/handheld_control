@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STP16CPC26
+D 16 bits serial out Shift Register LED driver
+$ENDCMP
+#
+#End Doc Library

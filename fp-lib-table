@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name quadrature_encoder)(type KiCad)(uri ${KIPRJMOD}/quadrature_encoder.pretty)(options "")(descr ""))
+  (lib (name bourns)(type KiCad)(uri "$(KIPRJMOD)/bourns.pretty")(options "")(descr ""))
+  (lib (name 2.4_lcd)(type KiCad)(uri "$(KIPRJMOD)/2.4_lcd.pretty")(options "")(descr ""))
+  (lib (name abls7m2)(type KiCad)(uri "$(KIPRJMOD)/abls7m2_crystal.pretty")(options "")(descr ""))
+)

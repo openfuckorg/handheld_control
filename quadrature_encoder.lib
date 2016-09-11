@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# quadrature_encoder
+#
+DEF quadrature_encoder E 0 40 Y Y 1 F N
+F0 "E" 0 650 60 H V C CNN
+F1 "quadrature_encoder" 0 -350 60 H V C CNN
+F2 "" 0 650 60 H V C CNN
+F3 "" 0 650 60 H V C CNN
+DRAW
+C 0 250 300 0 1 0 N
+S -400 600 400 -300 0 1 0 N
+P 2 0 1 0  -100 -250  -200 -250 N
+P 2 0 1 0  -100 -200  100 -200 N
+P 2 0 1 0  100 -250  200 -250 N
+P 4 0 1 0  -50 -200  -50 -150  50 -150  50 -200 N
+P 8 0 1 0  -250 200  -150 200  -150 100  -50 100  -50 200  50 200  50 100  150 100 N
+P 8 0 1 0  -200 300  -100 300  -100 400  0 400  0 300  100 300  100 400  200 400 N
+X A 1 700 500 300 L 50 50 1 1 P
+X B 2 700 350 300 L 50 50 1 1 P
+X C 3 700 200 300 L 50 50 1 1 P
+X S 4 700 -50 300 L 50 50 1 1 P
+X Frame 5 -700 -100 300 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
